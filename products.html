@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Spellbound</title>
+<title>Spellbound | Products</title>
 <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="./css/materialize.css">
 
@@ -49,7 +49,7 @@
       </div>
       <div class="row" style="text-align: center;padding: 9px 32px;">
         <div class="col s12 m3 l3 offset-m3 offset-l3">
-          <div class="btn-qu" onclick="window.open('./Products/quiz.html','_blank')">Quiz</div>
+          <div class="btn-qu" onclick="javascript:quiz();">Quiz</div>
           The quiz was where my functional side could really do its justice. I designed it to be easy to use for the younger children that the software is aimed at. I really enjoyed developing the quiz as it was simplistic yet methodical. The original idea for the quiz was to use a website instead of PowerPoint however due to the lack of software on the school machines I was unable to do it in this way.
         </div>
         <div class="col s12 m3 l3">
@@ -60,4 +60,11 @@
     </div>
 </div>
 </body>
+<script type="text/javascript">
+function quiz() {
+var answer = confirm ("Please save the file then run it.")
+if (answer)
+window.location="\quiz.ppsx";
+}
+</script>
 </html>

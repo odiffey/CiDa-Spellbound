@@ -8197,6 +8197,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    padding: 9px 32px;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
@@ -8204,7 +8205,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     transition-duration: 0.4s;
 	position: relative;
 	width: 100%;
-	height: 50px;
+	height: auto;
 }
 .btn-at p{
 	visibility: visible;
@@ -8217,7 +8218,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .btn-at:hover {
-	background-image: url(../../img/evidence/at.png);
+	background-image: url(../img/evidence/at.png);
+  color: black;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
 }
 
 /* Button - Demo Video Storyboard */
@@ -8228,6 +8233,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    padding: 9px 32px;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
@@ -8235,7 +8241,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     transition-duration: 0.4s;
 	position: relative;
 	width: 100%;
-	height: 50px;
+	height: auto;
 }
 .btn-dvs p{
 	visibility: visible;
@@ -8248,8 +8254,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .btn-dvs:hover {
-	background-image: url(../../img/evidence/dvs.png);
-	color: black;
+	background-image: url(../img/evidence/dvs.png);
+  color: black;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
 }
 
 /* Button - End of Project Review */
@@ -8262,12 +8271,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    padding: 9px 32px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 	position: relative;
 	width: 100%;
-	height: 50px;
+	height: auto;
 }
 .btn-eop p{
 	visibility: visible;
@@ -8280,8 +8290,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .btn-eop:hover {
-	background-image: url(../../img/evidence/eop.png);
+	background-image: url(../img/evidence/eop.png);
 	color: black;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
 }
 
 /* Button - Meet the Wizard Plan */
@@ -8299,7 +8312,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     transition-duration: 0.4s;
 	position: relative;
 	width: 100%;
-	height: 50px;
+	height: auto;
+  padding: 9px 32px;
 }
 .btn-mtwp p{
 	visibility: visible;
@@ -8312,8 +8326,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .btn-mtwp:hover {
-	background-image: url(../../img/evidence/mtwpl.png);
+	background-image: url(../img/evidence/mtwpl.png);
 	color: black;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
 }
 
 /* Button - Navigation Screen Plan */
@@ -8326,12 +8343,13 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    padding: 9px 32px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 	position: relative;
 	width: 100%;
-	height: 50px;
+	height: auto;
 }
 .btn-nsp p{
 	visibility: visible;
@@ -8344,8 +8362,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .btn-nsp:hover {
-	background-image: url(../../img/evidence/nsp.png);
+	background-image: url(../img/evidence/nsp.png);
 	color: black;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
 }
 
 /* Button - Proposal */
@@ -8353,7 +8374,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 	background-color: #00e600;
     border: none;
     color: white;
-    padding: 17px 32px;
+    padding: 9px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -8363,6 +8384,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 	position: relative;
+  width: 100%;
+  height: auto;
 }
 .btn-ps p{
 	visibility: visible;
@@ -8375,8 +8398,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .btn-ps:hover {
-	background-image: url(../../img/evidence/ps.png);
+	background-image: url(../img/evidence/ps.png);
 	color: black;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
 }
 
 /* Button - Proposal */
@@ -8384,7 +8410,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 	background-color: #00e600;
     border: none;
     color: white;
-    padding: 17px 32px;
+    padding: 9px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -8394,6 +8420,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 	position: relative;
+  width: 100%;
+  height: auto;
 }
 .btn-qp p{
 	visibility: visible;
@@ -8406,8 +8434,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .btn-qp:hover {
-	background-image: url(../../img/evidence/qp.png);
+	background-image: url(../img/evidence/qp.png);
 	color: black;
+  ackground-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
 }
 
 /* Button - Wizard Plan */
@@ -8415,7 +8446,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 	background-color: #00e600;
     border: none;
     color: white;
-    padding: 17px 32px;
+    padding: 9px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -8425,6 +8456,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 	position: relative;
+  width: 100%;
+  height: auto;
 }
 .btn-wp p{
 	visibility: visible;
@@ -8437,8 +8470,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 }
 
 .btn-wp:hover {
-	background-image: url(../../img/evidence/wp.png);
+	background-image: url(../img/evidence/wp.png);
 	color: black;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
 }
 
 
@@ -8457,6 +8493,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 	position: relative;
+  width: 100%;
+  height: auto;
 }
 .btn-mtws p{
 	visibility: visible;
@@ -8471,6 +8509,9 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .btn-mtws:hover {
 	background-image: url(../../img/evidence/mtws.png);
 	color: black;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position:center;
 }
 
 /* Buttons for Products Page */
