@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Spellbound | L</title>
+<script language="javascript">
+document.onmousedown=disableclick;
+function disableclick(event)
+{
+  if(event.button==2)
+   {
+     return false;    
+   }
+}
+</script>
+<script type="text/javascript">
+(function(){
+	var millis = 1000, 
+	titles = [ 
+           "Spellbound | L",
+		"Spellbound | Lo",
+           "Spellbound | Loa",
+		"Spellbound | Load",
+           "Spellbound | Loadi",
+		"Spellbound | Loadin",
+           "Spellbound | Loading",
+		"Spellbound | Loading.",
+		"Spellbound | Loading..",
+		"Spellbound | Loading..." 
+	], count = 0;
+	titles.push(document.title);
+	setInterval(function(){
+		document.title = titles[count % titles.length];
+		++count;
+	}, millis);
+})();
+</script>
+<style>
+a img {border: none}
+</style>
+<meta http-equiv="refresh" content="10;url=navigation.html" />
+</head>
+<body bgcolor ="#000000" oncontextmenu="return false">
+<img src="screen.gif" width="99%" align="middle">
+<bgsound src="Take a Chance.mp3" loop="infinite"> 
